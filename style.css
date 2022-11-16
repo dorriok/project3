@@ -1,0 +1,43 @@
+:root {
+    --body-copy: 16px;
+    line-height: 1.6;
+    --page-spacing: 20px;
+    --page-margin: 0px;
+    --main-heading: calc(var(--body-copy) * 1)
+
+}
+
+
+@media (min-width: 825px) {
+    :root {
+        --body-copy: 19px;
+        --page-spacing: 20px;
+        line-height: 1.8;
+        margin-bottom: 20px;
+        max-width:825px;
+        margin: auto;
+        --main-heading: calc(var(--body-copy) * 1)
+    }
+}
+
+.logo {
+    position: relative;
+    width: 825px;
+    height: 167px;
+    left: 12px;
+    top: 26px;
+}
+
+.box1 {
+background-color: #DE5935;
+}
+
+.box2 {
+background-color: white;
+
+}
+
+.box3 {
+background-color: black;
+color: white;
+}
